@@ -16,25 +16,35 @@
 
 <body>
   <h1>Comic Books - find yours</h1>
-  <h2>Filter</h2>
-  <div id="filters" class="button-group">  <button class="button is-checked" data-filter="*">show all</button>
-    <button class="button" data-filter=".metal">metal</button>
-    <button class="button" data-filter=".transition">transition</button>
-    <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
-    <button class="button" data-filter=":not(.transition)">not transition</button>
-    <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
-    <button class="button" data-filter="numberGreaterThan50">number > 50</button>
-    <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+  <h2>I want a</h2>
+  <div id="filters" class="button-group">
+    <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".metal">Concluded</button>
+    <button class="button" data-filter=".transition">Ongoing</button>
+  </div>
+  <h2>comic that is set in</h2>
+  <div id="filters" class="button-group">
+    <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".metal">Sci-fi</button>
+    <button class="button" data-filter=".transition">Fantasy</button>
+    <button class="button" data-filter=".transition">Realistic</button>
+  </div>
+  <h2>that is</h2>
+  <div id="filters" class="button-group">
+    <button class="button is-checked" data-filter="*">show all</button>
+    <button class="button" data-filter=".metal">Light-hearted</button>
+    <button class="button" data-filter=".transition">Serious</button>
+  </div>
+  <h2>Sorted by</h2>
+  <div id="sorts" class="button-group">
+    <button class="button is-checked" data-sort-by="original-order">original order</button>
+    <button class="button" data-sort-by="name">Popularity</button>
+    <button class="button" data-sort-by="symbol">Rating</button>
+    <button class="button" data-sort-by="number">Alphabetical</button>
   </div>
 
-  <h2>Sort</h2>
-  <div id="sorts" class="button-group">  <button class="button is-checked" data-sort-by="original-order">original order</button>
-    <button class="button" data-sort-by="name">name</button>
-    <button class="button" data-sort-by="symbol">symbol</button>
-    <button class="button" data-sort-by="number">number</button>
-    <button class="button" data-sort-by="weight">weight</button>
-    <button class="button" data-sort-by="category">category</button>
-  </div>
+  </br>
+  </br>
 
   <div class="isotope">
     <div class="element-item transition metal " data-category="transition">
