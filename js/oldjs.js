@@ -1,8 +1,8 @@
-// external js: isotope.pkgd.js
-
+// external js: comics.pkgd.js
+/*
 $( document ).ready( function() {
-  // init Isotope
-  var $container = $('.isotope').isotope({
+  // init Comics
+  var $container = $('.comics').isotope({
     itemSelector: '.element-item',
     layoutMode: 'fitRows',
     getSortData: {

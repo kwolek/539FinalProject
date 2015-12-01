@@ -1,0 +1,187 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../img/background1.png);
+}
+
+.content {
+margin: 0 20px 20px 20px;
+}
+
+.page-title {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 3rem;
+  line-height: 40px;
+  margin: 20px 10px 60px 0;
+  font-weight: bold;
+  color: white;
+}
+
+.filter-title {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.5rem;
+  line-height: 40px;
+  margin: 0 10px 0 0;
+  font-weight: bold;
+  color: white;
+}
+
+.sorts-title {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.5rem;
+  line-height: 40px;
+  margin: 0 10px 0 0;
+  font-weight: bold;
+  color: white;
+}
+
+.filters {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sorts {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.button-group {
+  display: inline-block;
+}
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #0097E0;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  margin: 20px 0 0 0;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.grid.background {
+  opacity: 0.6;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.book {
+  position: relative;
+  float: left;
+  width: 155px;
+  height: 237px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.book > * {
+  margin: 0;
+  padding: 0;
+}
+
+.book .name {
+  position: absolute;
+  left: 0px;
+  top: 212px;
+  text-transform: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px 5px 10px;
+  color: white;
+}
+
+
+.book.autumnlands         { background: url("../img/comics/autumnlands.jpg"); background-size: contain;}
+.book.birthright          { background: url("../img/comics/birthright.jpg"); background-size: contain;}
+.book.blackscience        { background: url("../img/comics/blackscience.jpg"); background-size: contain;}
+.book.chrononauts         { background: url("../img/comics/chrononauts.jpg"); background-size: contain;}
+.book.copperhead          { background: url("../img/comics/copperhead.jpg"); background-size: contain;}
+.book.deadlyclass         { background: url("../img/comics/deadlyclass.jpg"); background-size: contain;}
+.book.descender           { background: url("../img/comics/descender.jpg"); background-size: contain;}
+.book.eastofwest          { background: url("../img/comics/eastofwest.jpg"); background-size: contain;}
+.book.fadeout             { background: url("../img/comics/fadeout.jpg"); background-size: contain;}
+.book.injection           { background: url("../img/comics/injection.jpg"); background-size: contain;}
+.book.invisiblerepublic   { background: url("../img/comics/invisiblerepublic.jpg"); background-size: contain;}
+.book.low                 { background: url("../img/comics/low.jpg"); background-size: contain;}
+.book.morningglories      { background: url("../img/comics/morningglories.jpg"); background-size: contain;}
+.book.nailbiter           { background: url("../img/comics/nailbiter.jpg"); background-size: contain;}
+.book.outcast             { background: url("../img/comics/outcast.jpg"); background-size: contain;}
+.book.ratqueens           { background: url("../img/comics/ratqueens.jpg"); background-size: contain;}
+.book.revival             { background: url("../img/comics/revival.jpg"); background-size: contain;}
+.book.rochelimit          { background: url("../img/comics/rochelimit.jpg"); background-size: contain;}
+.book.rumble              { background: url("../img/comics/rumble.jpg"); background-size: contain;}
+.book.runlovekill         { background: url("../img/comics/runlovekill.jpg"); background-size: contain;}
+.book.saga                { background: url("../img/comics/saga.jpg"); background-size: contain;}
+.book.sexcriminals        { background: url("../img/comics/sexcriminals.jpg"); background-size: contain;}
+.book.shutter             { background: url("../img/comics/shutter.jpg"); background-size: contain;}
+.book.southernbastards    { background: url("../img/comics/southernbastards.jpg"); background-size: contain;}
+.book.walkingdead         { background: url("../img/comics/walkingdead.jpg"); background-size: contain;}
+.book.wayward             { background: url("../img/comics/wayward.jpg"); background-size: contain;}
+.book.wickedanddivine     { background: url("../img/comics/wickedanddivine.jpg"); background-size: contain;}
+.book.wytches             { background: url("../img/comics/wytches.jpg"); background-size: contain;}

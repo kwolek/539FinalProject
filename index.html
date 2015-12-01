@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="img/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="filter &amp; sort magical layouts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comic Books</title>
+
+    <!-- Isotope does not require any CSS files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/isotope-docs.css" media="screen">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://mfzy.co/isotope.pkgd.js"></script>
+</head>
+
+
+<body>
+  <div class="col-xs-12">
+  <div class="content">
+
+  <h1 class="page-title">Comic Books - find yours</h1>
+    </br>
+
+  <div class="filters">
+  <h2 class="filter-title">Duration:</h2>
+  <div class="button-group js-radio-button-group" data-filter-group="time">
+    <button class="button is-checked" data-filter="">Any</button>
+    <button class="button" data-filter=".new">New</button>
+    <button class="button" data-filter=".ongoing">Ongoing</button>
+    <button class="button" data-filter=".longrunning">Long Running</button>
+  </div>
+    </br>
+    </br>
+  <h2 class="filter-title">Genre:</h2>
+  <div class="button-group js-radio-button-group" data-filter-group="genre">
+    <button class="button is-checked" data-filter="">Any</button>
+    <button class="button" data-filter=".crime">Crime</button>
+    <button class="button" data-filter=".fantasy">Fantasy</button>
+    <button class="button" data-filter=".horror">Horror</button>
+    <button class="button" data-filter=".scifi">Sci-fi</button>
+  </div>
+    </br>
+    </br>
+  <h2 class="filter-title">Tones:</h2>
+  <div class="button-group js-radio-button-group" data-filter-group="tone">
+    <button class="button is-checked" data-filter="">Any</button>
+    <button class="button" data-filter=".fun">Fun</button>
+    <button class="button" data-filter=".moderate">Moderate</button>
+    <button class="button" data-filter=".serious">Serious</button>
+  </div>
+    </br>
+    </br>
+  <h2 class="filter-title">Popularity:</h2>
+  <div class="button-group js-radio-button-group" data-filter-group="fame">
+    <button class="button is-checked" data-filter="">Any</button>
+    <button class="button" data-filter=".niche">Niche</button>
+    <button class="button" data-filter=".decent">Decently Popular</button>
+    <button class="button" data-filter=".mainstream">Mainstream</button>
+  </div>
+    </br>
+    </br>
+    </br>
+    </br>
+  <h2 class="sorts-title">Sorted by</h2>
+  <div id="sorts" class="button-group">
+    <button class="button is-checked" data-sort-by="name">Alphabetical</button>
+    <button class="button" data-sort-by="popularity">Popularity</button>
+    <button class="button" data-sort-by="rating">Rating</button>
+  </div>
+
+<!-- filters-->
+  </div>
+  </br>
+  </br>
+
+  <div class="grid">
+    <div class="book autumnlands new fantasy decent moderate" data-category="autumnlands">
+      <h3 class="name">Autumnlands</h3>
+    </div>
+    <div class="book birthright ongoing fantasy decent moderate" data-category="birthright">
+      <h3 class="name">Birthright</h3>
+    </div>
+    <div class="book blackscience ongoing scifi mainstream moderate" data-category="blackscience">
+      <h3 class="name">Black Science</h3>
+    </div>
+    <div class="book chrononauts new normal mainstream fun" data-category="chrononauts">
+      <h3 class="name">Chrononauts</h3>
+    </div>
+    <div class="book copperhead ongoing scifi niche moderate" data-category="copperhead">
+      <h3 class="name">Copperhead</h3>
+    </div>
+    <div class="book deadlyclass ongoing crime decent moderate" data-category="deadlyclass">
+      <h3 class="name">Deadly Class</h3>
+    </div>
+    <div class="book descender new scifi mainstream moderate" data-category="descender">
+      <h3 class="name">Descender</h3>
+    </div>
+    <div class="book eastofwest longrunning scifi mainstream moderate" data-category="eastofwest">
+      <h3 class="name">East of West</h3>
+    </div>
+    <div class="book fadeout ongoing crime decent serious" data-category="fadeout">
+      <h3 class="name">Fade Out</h3>
+    </div>
+    <div class="book injection new scifi decent serious" data-category="injection">
+      <h3 class="name">Injection</h3>
+    </div>
+    <div class="book invisiblerepublic new scifi niche serious" data-category="invisiblerepublic">
+      <h3 class="name">Invisible Republic</h3>
+    </div>
+    <div class="book low ongoing scifi decent moderate" data-category="low">
+      <h3 class="name">Low</h3>
+    </div>
+    <div class="book morningglories longrunning crime niche serious" data-category="morningglories">
+      <h3 class="name">Morning Glories</h3>
+    </div>
+    <div class="book nailbiter ongoing horror decent serious" data-category="nailbiter">
+      <h3 class="name">Nailbiter</h3>
+    </div>
+    <div class="book outcast ongoing horror mainstream serious" data-category="outcast">
+      <h3 class="name">Outcast</h3>
+    </div>
+    <div class="book ratqueens ongoing fantasy niche fun" data-category="ratqueens">
+      <h3 class="name">Rat Queens</h3>
+    </div>
+    <div class="book revival longrunning horror decent serious" data-category="revival">
+      <h3 class="name">Revival</h3>
+    </div>
+    <div class="book rochelimit new scifi niche serious" data-category="rochelimit">
+      <h3 class="name">Roche Limit</h3>
+    </div>
+    <div class="book rumble ongoing fantasy niche moderate" data-category="rumble">
+      <h3 class="name">Rumble</h3>
+    </div>
+    <div class="book runlovekill new scifi niche moderate" data-category="runlovekill">
+      <h3 class="name">Run Love Kill</h3>
+    </div>
+    <div class="book saga longrunning scifi mainstream fun" data-category="saga">
+      <h3 class="name">Saga</h3>
+    </div>
+    <div class="book sexcriminals ongoing scifi mainstream fun" data-category="sexcriminals">
+      <h3 class="name">Sex Criminals</h3>
+    </div>
+    <div class="book shutter ongoing scifi niche fun" data-category="shutter">
+      <h3 class="name">Shutter</h3>
+    </div>
+    <div class="book southernbastards ongoing crime decent serious" data-category="southernbastards">
+      <h3 class="name">Southern Bastards</h3>
+    </div>
+    <div class="book walkingdead longrunning horror huge serious" data-category="walkingdead">
+      <h3 class="name">Walking Dead</h3>
+    </div>
+    <div class="book wayward ongoing fantasy niche fun" data-category="wayward">
+      <h3 class="name">Wayward</h3>
+    </div>
+    <div class="book wickedanddivine ongoing fantasy mainstream moderate" data-category="wickedanddivine">
+      <h3 class="name">Wicked and Divine</h3>
+    </div>
+    <div class="book wytches new horror mainstream serious" data-category="wytches">
+      <h3 class="name">Wytches</h3>
+    </div>
+  </div>
+
+
+<!-- Looking for isotope.js? Use http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js -->
+<!-- Isotope does NOT require jQuery. But it does make things easier -->
+<script src="js/comics-docs.min.js"></script>
+
+<!--content-->
+</div>
+</div>
+</body>
